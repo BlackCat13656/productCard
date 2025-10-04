@@ -105,8 +105,20 @@ bg-2 {
   left: 28%;
   background: linear-gradient(to right, transparent, rgba(0, 0, 0, 0.7)),
     transparent;
-  border-radius: 0 50% 50% 0;
+  border-radius: 50%;
   filter: blur(3rem);
   opacity: 0.5;
-  transform: rotateY(45deg);
+}
+
+.shadow-3 {
+  width: 55rem;
+  height: 15rem;
+  background-color: linear-gradient(
+    to right,
+    transparent,
+    rgba(0, 0, 0, 0.4),
+    transparent
+  );
+  transform: rotateX(70deg) rotateZ(-30deg) translateX(5rem);
+  filter: blur(5rem);
 }
